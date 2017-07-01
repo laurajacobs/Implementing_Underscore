@@ -1,0 +1,17 @@
+{
+  "name": "Implementing_underscore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
+    "mocha": "^3.4.2"
+  }
+}
