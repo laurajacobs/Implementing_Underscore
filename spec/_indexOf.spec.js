@@ -15,6 +15,13 @@ describe('low-bar', () => {
             expect(_indexOf([1,2,3], 4)).to.equal(-1);
              expect(_indexOf('hello', 'x')).to.equal(-1);
         });
+        it('should return -1 if passed true for is sorted but value is not present', () => {
+            expect(_indexOf([1,2,3], 4, true)).to.equal(-1);
+        });
+        it('should return index of value passed true for is sorted', () => {
+            expect(_indexOf([1,2,3,4,5,6,7,8,9], 4, true)).to.equal(3);
+
+        });
         it('should return the index of the value', () => {
             expect(_indexOf([1,2,3], 2)).to.equal(1);
             expect(_indexOf('hello', 'o')).to.equal(4);

@@ -27,3 +27,7 @@ describe('low-bar', () => {
         });
     });
 });
+
+
+// TODO: check for negative numbers
+// TODO: check for decimal numbers
